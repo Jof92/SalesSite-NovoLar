@@ -1,0 +1,674 @@
+html{
+    overflow-x: hidden ;}
+.promo{
+    background-color: #FFFF00;
+
+    width: 100%;
+    height: 35px;
+}
+
+.promo li{
+    display:inline-block;
+    padding: 5px 10px 0 10px  ;
+    font-size: 1em;
+    font-weight: bold; 
+
+}
+
+.promo li a{
+    color: #210B61    
+}
+
+.caixa{
+	width:  100%;
+	margin: 0 5px 10px;
+    background-color: #F2F2F2;
+    display:flex;
+  
+}
+
+.logo {
+    width: 300px; 
+    margin: 10px 10px 10px 30px;
+}
+
+.busca {
+    text-align: right;
+    padding: 0 10px 5px 10px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 113px 0 110px 100px;
+
+}
+
+#barra{
+    width: 600px ;
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px ;
+}    
+
+.icon {
+    width: 40px;
+    margin: 113px 0 110px 0;
+}
+.carrinho{
+    margin: 115px 0 0 170px; 
+}
+
+.carrinho:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.meucarrinho{
+    width: 40px;
+    margin-left: 20px;    
+}
+
+.carrinho p{
+  font-weight: bold; 
+  color: #610B0B;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.carrinho .car-tex {
+    text-decoration: none;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+    margin-right: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#0404B4;
+    text-decoration: none;  
+}
+
+.cad{
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cad a:hover{
+    color: white; 
+    font-weight: bold;
+}
+
+.menu {
+   
+    display: inline-block;
+    background-color: blue;
+    width: 100%;
+    margin: 0.5px 0 10px 0;
+    padding-top: 13px;
+    text-align: center;
+
+}
+.menu li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+.menu a {
+    color:azure;
+	font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+	color:#610B0B;
+    text-decoration: none;
+    
+}
+
+.menuimagens {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.menuimagens li {
+	display: inline;
+	margin: 0 30px 0 30px;
+    width: 5px;
+}
+
+.menuimagens img {
+    width: 70px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10%;
+    padding: 5px;
+    margin-top: 20px;
+  
+    
+}
+
+.menuimagens img:hover {
+    border: 2px solid blue;
+    border-radius: 10%;
+    background: red;  
+    
+}
+
+.barra-bene{
+    background-color: #FFBF00;
+    display:inline-block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: 10px 0 10px 0 ;
+}
+
+.barra-bene li{
+    display:inline-block;
+    padding: 20px 40px 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;    
+}
+
+.barra-bene li a{
+    color: #210B61  ;
+    text-decoration: none;
+}
+
+.barra-bene li a:hover{
+    color:#610B0B  ;
+    text-decoration: none;
+    font-size: 21px;
+    transition-duration: 0.4s;
+    
+}
+
+.servico {   
+    display: inline-block;
+    background:#610B0B;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid blue;
+    padding-top: 5px;
+    height: 40px;
+}
+
+.servico li {
+	display: inline;
+	margin: 0 0 0 55px;
+}
+
+.servico a {
+	color:azure;
+	font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+    font-weight: bold;    
+}
+
+.servico a:hover {
+    text-decoration: none;
+    color: #FFFF00;
+}
+
+.evid-ima {
+    width: 700px;
+    margin: 20px 0 30px 70px;
+}
+
+.front{
+    background: linear-gradient(
+        90deg,
+        rgb(77, 1, 1) 0%,
+        rgb(155, 2, 2) 35%,
+        rgb(188, 101, 101) 100%
+      );
+    display:inline-flex;
+    width: 100%;
+    border-top: 4px solid blue;
+    margin: 0 10px;
+
+}
+.contai {
+    padding: 10px 20px 10px 50px;
+    width: 50%;    
+}
+
+.contpix{
+    width: 50%; 
+}
+
+.caixapix{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #0404B4;
+    
+}
+
+.imgpix {
+    width: 90%;
+    margin-left: 70px; 
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5)); 
+}
+.imgpix:hover {
+    
+    transition-duration: 1s;
+}
+.caixapix .pix{
+    text-decoration: none;
+    color: beige;
+    margin: 0 0  20px 50px ;
+    padding: 7px 20px 7px 20px;
+}
+
+.caixapix .pix:hover{
+ color: #FFFF00;
+}
+
+
+.card1{
+    width:99%;
+   margin: 20px 10px;
+   display: inline-flex; 
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
+}
+
+.card1 a img {
+    width: 40%; 
+    padding: 20px 0 20px 0;  
+    float: right;
+}
+.card1 a img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.card2 ul{
+    margin: 30px 0 0 100px;
+    font-size: 30px;
+    color: azure;    
+}
+.card2 a:hover{
+  text-decoration: none;
+}
+.card2 a ul:hover{
+    color:#FFFF00;   
+}
+
+.card2 p{
+    margin: 95px 0 0 350px;
+    font-size: 12px;
+    color:#8d6bf4;    
+}
+
+.pedidos {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(
+        90deg,
+        rgb(77, 1, 1) 0%,
+        rgb(155, 2, 2) 35%,
+        rgb(188, 101, 101) 100%
+      );
+      margin: 0 10px;
+    
+}
+
+span {
+
+    font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: 40PX 0 40PX 0;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(Imagens/LIST.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 180s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+
+.produtos{
+	width: 100%;
+	margin: 0 50px 50px 0px;
+	padding:0 10px;
+    background: linear-gradient(
+        90deg,
+        rgba(77, 1, 1, 0.697) 0%,
+        rgba(155, 2, 2, 0.582) 35%,
+        rgba(188, 101, 101, 0.619) 100%
+      );
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	box-sizing: border-box;
+	border-radius: 10px;
+    background: white;
+    color:#0404B4 ;
+    padding: 10px;
+    border: 2px solid rgb(33, 31, 31);
+}
+
+.produtos img{
+    width: 200px;
+    padding: 10px 0;    
+}
+
+.produtos img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+    
+  
+}
+
+.produto-descricao {
+	font-size: 18px;
+    margin: 0 0 -0.08em 0;
+}
+
+.produtos li a:hover{
+	text-decoration: none;
+    color: #610B0B;
+}
+
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;	
+    color: #0404B4;
+    margin: 0 0 -0.08em 0;
+}
+
+.produto-parcela {
+	font-size: 15;
+	font-weight: bold;	
+}
+
+.indicacao{
+    width: 100%;
+    text-align: center;
+    margin: 100px 10px 0 10px;
+}
+
+.indicacao1 p{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #610B0B;
+}
+
+.indicacao2{
+    width: 100%;
+	margin: 0 50px 50px 0px;
+	padding:0 10px;
+}
+
+.indicacao2 li {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	box-sizing: border-box;
+	border-radius: 10px;
+    background: white;
+    color:#0404B4 ;
+    padding: 10px;
+
+}
+
+.indicacao2 li p{
+	color: #610B0B;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 0 -0.08em 0;
+
+}
+
+
+.indicacao2 img{
+    width: 200px;
+    padding: 10px 0;    
+}
+
+.indicacao2 img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+    
+  
+}
+
+.contato {   
+    width: 100%;
+    background-color:#eae3e3eb;
+    display: inline-flex;
+}
+
+.central{
+    width: 30%;
+    text-align: center; 
+}
+
+.central p{
+    font-size: 15px;
+    text-align: center;
+    color:#610B0B;
+    padding: 15px 15px 0 15px;
+    font-weight: bold;
+    margin: -10px 0 0 0;    
+}
+.central a{
+    font-size: 14px;
+    text-align: center;
+    color:#154ce4; 
+    font-weight: bold; 
+    margin: -10px 0 0 0;  
+}
+
+.central a:hover{
+    text-decoration: none;  
+}
+.whats{
+    width: 35%;
+    margin: -1px 0 0 200px;
+}
+
+.whats img{
+    width: 3em;
+    
+}
+
+.whats a {
+    color: #610B0B;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.whats a:hover {
+    text-decoration: none;
+}
+
+.fone {
+    width: 35%;
+    font-size: 1.1em;
+    text-align: center;
+    color:#610B0B;
+    padding: 15px 15px 0 15px; 
+    font-weight: bold;
+    margin: -5px 0 0 0px;
+    
+}
+
+.fone p{
+    margin: 0 0  0 ;
+}
+
+.numero{
+    color: #154ce4;
+    font-size: 0.9em;
+    margin: -5px 0 0 0px;
+}
+
+.rodape{
+    
+    width: 100%;
+    background-color: #154ce4;
+}
+.rodape ul{
+    width: 100%;
+    display: inline-flex;
+}
+
+.rodape li{
+    margin: 20px 0 0 100px;
+}
+.rodape a{
+    color: antiquewhite;
+}
+
+.rodape a p{
+    margin: 0 0 0.5em 0;
+    font-size: 14px;
+}
+
+.midias{
+    margin: 50px 0 0 150px ;
+
+}
+
+.cabeca{
+    text-transform:uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.midias img{
+    width: 45px;
+    margin: 0 0 0 0px;
+}
+
+.lojas{
+    margin: 50px 0 0 70px ;
+}
+
+.apple img{
+    width: 150px;
+    margin: -40px 0 0 0;
+   
+}
+
+.google img{
+    width: 130px;
+    margin: -40px 0 0 10px;
+}
+
+.pay{
+    
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.payitem{
+    margin-top: 10px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    
+    
+}
+
+.pay img{
+    width: 40px;
+    margin: -19px 0 -20px 20px;
+    
+}
+
+
+
+.producao{
+    width: 100%;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    border-top: 20px solid #154ce4;
+}
+
+.producao p{
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
